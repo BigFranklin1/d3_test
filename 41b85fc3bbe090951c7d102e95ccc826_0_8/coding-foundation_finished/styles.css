@@ -1,0 +1,35 @@
+/* refering to the whole HTML body */
+body {
+    /* makes the background black */
+    background-color: black;
+    /* makes whatever elements inside the body center-aligned */
+    text-align: center;
+    /* switch to san-serif font */
+    font-family: Arial, Helvetica, sans-serif;
+    /* set the size of all text inside body*/
+    font-size: 10pt;
+}
+
+/* adding a "#" means you are referring to an ID */
+#input-container {
+    /* set the top margin to make the spacing look nicer */
+    margin-top: 30pt;
+}
+
+#square-container {
+    /* also make the spacing look nicer */
+    margin: 30pt;
+    /* below is something called "flexbox", a layout engine in HTML*/
+    /* try to remove these two lines and see what it looks like in the browser */
+    /* more on flexbox at https://www.w3schools.com/csS/css3_flexbox.asp */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* adding a "." means you are referring to a class */
+.square {
+    margin: 5px;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+}
